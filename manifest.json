@@ -1,0 +1,13 @@
+{
+    "name": "JIRA Search",
+    "version": "1.1",
+    "description": "Search for JIRA issues by entering issue keys directly into browser's address bar.",
+    "manifest_version": 2,
+	"background": {"scripts":["background.js"]},
+	"permissions": [
+	    "webRequest",
+	    "*://*.google.com/*",
+		"https://jira.pabk.sk/*",
+		"webRequestBlocking"
+	]
+}
